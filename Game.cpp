@@ -294,7 +294,7 @@ Particle Game::randomParticle() const
 {
     Point pos(rand() % width, rand() % height);
     // using some percentage of the mass of Jupiter
-    double mass = ((double) rand() / RAND_MAX) * 150 + 1.0;
+    double mass = ((double) rand() / RAND_MAX) * 80 + 1.0;
 
     return Particle(pos, mass);
 }
