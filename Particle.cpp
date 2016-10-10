@@ -9,7 +9,7 @@ Particle::Particle(Point p, double m): mass(m)
     center= Point(p.getX(), p.getY());
     velocity = Point(0,0);
     force = Point(0,0);
-    radius = m/1;
+    radius = m/3;
 }
 double Particle::getRadius() const
 {
